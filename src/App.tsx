@@ -26,7 +26,7 @@ function App() {
     setIsSubmitting(true);
     setSubmitStatus('idle');
 
-    const webhookUrl = 'https://maruti21.app.n8n.cloud/webhook/intake';
+    const webhookUrl = 'https://maruti21.app.n8n.cloud/webhook/debtrelief';
 
     try {
       const response = await fetch(webhookUrl, {
